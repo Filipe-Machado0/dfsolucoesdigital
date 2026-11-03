@@ -15,9 +15,8 @@ export default function Navbar() {
 
   const navLinks = [
     { label: 'Catálogo de Serviços', href: '#catalogo-servicos' },
-    { label: 'Metodologia', href: '#metodologia' },
-    { label: 'Quem Somos', href: '#quem-somos' },
-    { label: 'FAQ', href: '#faq' },
+    { label: 'Dúvidas Frequentes', href: '#faq' },
+    { label: 'Contato', href: '#contato' },
   ];
 
   const whatsappLink = "https://wa.me/5561999999999?text=Ol%C3%A1%21%20Gostaria%20de%20um%20diagn%C3%B3stico%20gratuito%20com%20a%20DF%20Solu%C3%A7%C3%B5es%20Digitais.";

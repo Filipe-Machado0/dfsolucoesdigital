@@ -85,16 +85,10 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2.5 text-sm">
               <li>
-                <a href="#quem-somos" className="hover:text-cyan-400 transition-colors">Quem Somos</a>
+                <a href="#catalogo-servicos" className="hover:text-cyan-400 transition-colors">Catálogo de Serviços</a>
               </li>
               <li>
-                <a href="#servicos" className="hover:text-cyan-400 transition-colors">Nossos Serviços</a>
-              </li>
-              <li>
-                <a href="#resultados" className="hover:text-cyan-400 transition-colors">Métricas & Resultados</a>
-              </li>
-              <li>
-                <a href="#faq" className="hover:text-cyan-400 transition-colors">Perguntas Frequentes</a>
+                <a href="#faq" className="hover:text-cyan-400 transition-colors">Dúvidas Frequentes</a>
               </li>
               <li>
                 <a href="#contato" className="hover:text-cyan-400 transition-colors">Solicitar Orçamento</a>
