@@ -115,7 +115,7 @@ export default function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-cyan-400 shrink-0 mt-0.5" />
-                <span>Brasília - DF | Atendimento em Todo o Brasil</span>
+                <span>Boituva - SP | Atendimento em Todo o Brasil</span>
               </li>
               <li className="flex items-center gap-2.5">
                 <MessageCircle className="w-4 h-4 text-cyan-400 shrink-0" />
@@ -125,8 +125,8 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2.5">
                 <Mail className="w-4 h-4 text-cyan-400 shrink-0" />
-                <a href="mailto:contato@dfsolucoesdigitais.com.br" className="hover:text-cyan-400 transition-colors">
-                  contato@dfsolucoesdigitais.com.br
+                <a href="mailto:dfdigital.suporte@hotmail.com" className="hover:text-cyan-400 transition-colors">
+                  dfdigital.suporte@hotmail.com
                 </a>
               </li>
             </ul>
