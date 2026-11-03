@@ -18,7 +18,7 @@ export default function Footer() {
               <img
                 src="/logo-horizontal-white.png"
                 alt="DF Digital - Soluções Digitais"
-                className="h-10 sm:h-11 w-auto object-contain filter drop-shadow-[0_0_12px_rgba(0,240,255,0.35)]"
+                className="h-12 sm:h-14 md:h-16 w-auto object-contain filter drop-shadow-[0_0_12px_rgba(0,240,255,0.35)]"
               />
             </div>
 

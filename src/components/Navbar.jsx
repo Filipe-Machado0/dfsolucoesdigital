@@ -31,11 +31,11 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           {/* Logo Oficial Horizontal */}
-          <a href="#" className="flex items-center group py-1">
+          <a href="#" className="flex items-center group py-0.5">
             <img
               src="/logo-horizontal-white.png"
               alt="DF Digital - Soluções Digitais"
-              className="h-8 sm:h-9 md:h-10 w-auto object-contain filter drop-shadow-[0_0_12px_rgba(0,240,255,0.4)] group-hover:drop-shadow-[0_0_20px_rgba(0,240,255,0.7)] group-hover:scale-[1.02] transition-all duration-300"
+              className="h-11 sm:h-12 md:h-14 lg:h-[68px] w-auto object-contain filter drop-shadow-[0_0_15px_rgba(0,240,255,0.45)] group-hover:drop-shadow-[0_0_25px_rgba(0,240,255,0.85)] group-hover:scale-[1.03] transition-all duration-300"
             />
           </a>
 

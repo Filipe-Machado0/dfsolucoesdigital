@@ -41,7 +41,7 @@ export default function FinalCTA() {
                 <img
                   src="/logo-horizontal-white.png"
                   alt="DF Digital - Soluções Digitais"
-                  className="h-9 sm:h-10 w-auto object-contain filter drop-shadow-[0_0_12px_rgba(0,240,255,0.4)]"
+                  className="h-12 sm:h-14 md:h-16 w-auto object-contain filter drop-shadow-[0_0_15px_rgba(0,240,255,0.4)]"
                 />
               </div>
 
