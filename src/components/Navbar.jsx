@@ -15,11 +15,10 @@ export default function Navbar() {
 
   const navLinks = [
     { label: 'Catálogo de Serviços', href: '#catalogo-servicos' },
-    { label: 'Dúvidas Frequentes', href: '#faq' },
-    { label: 'Contato', href: '#contato' },
+    { label: 'Solicitar Orçamento', href: '#orcamento' },
   ];
 
-  const whatsappLink = "https://wa.me/5561999999999?text=Ol%C3%A1%21%20Gostaria%20de%20um%20diagn%C3%B3stico%20gratuito%20com%20a%20DF%20Solu%C3%A7%C3%B5es%20Digitais.";
+  const whatsappLink = "https://wa.me/5561999999999?text=Ol%C3%A1%21%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento%20com%20a%20DF%20Solu%C3%A7%C3%B5es%20Digitais.";
 
   return (
     <header
@@ -72,7 +71,7 @@ export default function Navbar() {
               className="relative group inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-heading font-bold italic text-sm text-slate-950 bg-gradient-to-r from-cyan-400 via-sky-400 to-blue-500 shadow-[0_0_20px_rgba(0,240,255,0.4)] hover:shadow-[0_0_30px_rgba(0,240,255,0.7)] hover:scale-[1.02] active:scale-[0.98] transition-all duration-300"
             >
               <MessageCircle className="w-4 h-4 text-slate-950 stroke-[2.5]" />
-              <span>Falar no WhatsApp</span>
+              <span>Solicitar Orçamento</span>
               <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform stroke-[2.5]" />
             </a>
           </div>

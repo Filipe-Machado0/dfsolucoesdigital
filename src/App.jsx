@@ -2,7 +2,6 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Services from './components/Services';
-import FAQ from './components/FAQ';
 import FinalCTA from './components/FinalCTA';
 import Footer from './components/Footer';
 import FloatingWhatsApp from './components/FloatingWhatsApp';
@@ -13,18 +12,15 @@ function App() {
       {/* Top Fixed Navigation */}
       <Navbar />
 
-      {/* Main Content Flow */}
+      {/* Main Content Flow: Foco em Apresentação de Serviços & Solicitação de Orçamentos */}
       <main className="flex-grow">
-        {/* Hero Section */}
+        {/* 1. Apresentação Inicial & Chamadas Rápidas */}
         <Hero />
 
-        {/* Nossos Serviços (Catálogo Dinâmico com Modais) */}
+        {/* 2. Catálogo Interativo de Serviços (com Modais Detalhados) */}
         <Services />
 
-        {/* FAQ */}
-        <FAQ />
-
-        {/* Call to Action Final */}
+        {/* 3. Solicitação de Orçamento Personalizado */}
         <FinalCTA />
       </main>
 

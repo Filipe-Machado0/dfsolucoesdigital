@@ -88,10 +88,7 @@ export default function Footer() {
                 <a href="#catalogo-servicos" className="hover:text-cyan-400 transition-colors">Catálogo de Serviços</a>
               </li>
               <li>
-                <a href="#faq" className="hover:text-cyan-400 transition-colors">Dúvidas Frequentes</a>
-              </li>
-              <li>
-                <a href="#contato" className="hover:text-cyan-400 transition-colors">Solicitar Orçamento</a>
+                <a href="#orcamento" className="hover:text-cyan-400 transition-colors">Solicitar Orçamento</a>
               </li>
             </ul>
           </div>

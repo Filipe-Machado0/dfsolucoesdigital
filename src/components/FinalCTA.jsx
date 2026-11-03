@@ -18,7 +18,7 @@ export default function FinalCTA() {
   };
 
   return (
-    <section id="contato" className="relative py-28 bg-[#030712] overflow-hidden">
+    <section id="orcamento" className="relative py-28 bg-[#030712] overflow-hidden scroll-mt-10">
       {/* Background Neon Flare */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[650px] h-[450px] bg-gradient-to-r from-cyan-500/20 via-sky-500/15 to-blue-600/20 rounded-full blur-[160px] pointer-events-none" />
 
@@ -49,18 +49,18 @@ export default function FinalCTA() {
 
               <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-cyan-950/60 border border-cyan-400/40 text-cyan-400 text-xs font-bold uppercase tracking-widest">
                 <Sparkles className="w-3.5 h-3.5" />
-                <span>O Próximo Passo do Seu Negócio</span>
+                <span>Orçamento Rápido & Sem Compromisso</span>
               </div>
 
               <h2 className="font-heading font-black italic text-3xl sm:text-5xl lg:text-6xl text-white tracking-tight uppercase leading-[1.1]">
-                Sua marca pronta para{' '}
+                Solicite seu orçamento{' '}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-sky-300 to-blue-500 text-glow-neon">
-                  dominar o digital.
+                  personalizado.
                 </span>
               </h2>
 
               <p className="text-base sm:text-lg text-slate-300 leading-relaxed font-normal">
-                Não deixe seus clientes escolherem a concorrência por falta de presença ou autoridade. Fale agora com um especialista da <strong className="text-white font-semibold">DF Soluções Digitais</strong> e receba uma consultoria inicial 100% gratuita para desenhar o plano ideal para sua empresa.
+                Conte-nos sobre o seu projeto e receba uma proposta técnica sob medida para a sua empresa, com total transparência e alinhamento de expectativas — sem custo e sem compromisso.
               </p>
 
               {/* Check list */}
@@ -98,10 +98,10 @@ export default function FinalCTA() {
             <div className="lg:col-span-5 bg-slate-950/80 p-8 rounded-2xl border border-cyan-500/20 backdrop-blur-md shadow-2xl">
               <div className="text-left mb-6">
                 <h3 className="font-heading font-bold italic text-xl text-white mb-1">
-                  Simule seu Projeto
+                  Simule seu Orçamento
                 </h3>
                 <p className="text-xs text-slate-400">
-                  Preencha abaixo para adiantar seu atendimento direto no WhatsApp.
+                  Preencha abaixo e receba sua proposta técnica personalizada diretamente no WhatsApp.
                 </p>
               </div>
 
@@ -167,7 +167,7 @@ export default function FinalCTA() {
                   className="w-full py-4 px-6 rounded-xl font-heading font-black italic text-sm text-slate-950 bg-gradient-to-r from-cyan-400 via-sky-400 to-blue-400 hover:shadow-[0_0_25px_rgba(0,240,255,0.7)] hover:scale-[1.01] active:scale-[0.98] transition-all flex items-center justify-center gap-2"
                 >
                   <Send className="w-4 h-4 stroke-[2.5]" />
-                  <span>ENVIAR E INICIAR NO WHATSAPP</span>
+                  <span>GERAR ORÇAMENTO NO WHATSAPP</span>
                 </button>
               </form>
             </div>
