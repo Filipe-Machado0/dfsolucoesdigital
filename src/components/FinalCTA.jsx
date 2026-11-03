@@ -11,8 +11,8 @@ export default function FinalCTA() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const text = `Olá! Me chamo ${formData.name || 'um cliente'}${formData.company ? ` da empresa ${formData.company}` : ''}. Tenho interesse em: *${formData.service}*. ${formData.notes ? `Observações: ${formData.notes}` : ''}`;
-    const whatsappUrl = `https://wa.me/5561999999999?text=${encodeURIComponent(text)}`;
+    const text = `Olá! Me chamo ${formData.name || 'um cliente'}${formData.company ? ` da empresa ${formData.company}` : ''}. Tenho interesse em solicitar um orçamento para: *${formData.service}*. ${formData.notes ? `Observações: ${formData.notes}` : ''}`;
+    const whatsappUrl = `https://wa.me/5515991359386?text=${encodeURIComponent(text)}`;
     window.open(whatsappUrl, '_blank');
   };
 
@@ -73,7 +73,7 @@ export default function FinalCTA() {
               {/* Direct Quick WhatsApp Button */}
               <div className="pt-4">
                 <a
-                  href="https://wa.me/5561999999999?text=Ol%C3%A1%21%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento%20com%20a%20DF%20Solu%C3%A7%C3%B5es%20Digitais."
+                  href="https://wa.me/5515991359386?text=Ol%C3%A1%21%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento%20personalizado%20com%20a%20DF%20Digital."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-3 px-8 py-4 rounded-xl font-heading font-black italic text-base text-slate-950 bg-gradient-to-r from-cyan-400 via-sky-400 to-blue-400 shadow-[0_0_25px_rgba(0,240,255,0.6)] hover:shadow-[0_0_40px_rgba(0,240,255,0.9)] hover:scale-[1.02] active:scale-[0.98] transition-all"

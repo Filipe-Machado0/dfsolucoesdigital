@@ -57,7 +57,7 @@ export default function Footer() {
               </a>
               {/* WhatsApp */}
               <a
-                href="https://wa.me/5561999999999"
+                href="https://wa.me/5515991359386?text=Ol%C3%A1%21%20Gostaria%20de%20um%20atendimento%20com%20a%20DF%20Digital."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 rounded-xl bg-slate-900 border border-white/10 flex items-center justify-center text-slate-300 hover:text-cyan-400 hover:border-cyan-400/50 hover:shadow-[0_0_15px_rgba(0,240,255,0.3)] transition-all"
@@ -119,8 +119,8 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2.5">
                 <MessageCircle className="w-4 h-4 text-cyan-400 shrink-0" />
-                <a href="https://wa.me/5561999999999" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition-colors">
-                  (61) 99999-9999
+                <a href="https://wa.me/5515991359386?text=Ol%C3%A1%21%20Gostaria%20de%20um%20atendimento%20com%20a%20DF%20Digital." target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition-colors">
+                  +55 (15) 99135-9386
                 </a>
               </li>
               <li className="flex items-center gap-2.5">

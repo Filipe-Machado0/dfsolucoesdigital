@@ -129,7 +129,7 @@ export default function AboutUs() {
             </div>
           </div>
           <a
-            href="https://wa.me/5561999999999?text=Ol%C3%A1%21%20Gostaria%20de%20conversar%20sobre%20a%20presen%C3%A7a%20online%20da%20minha%20empresa."
+            href="https://wa.me/5515991359386?text=Ol%C3%A1%21%20Gostaria%20de%20conversar%20sobre%20a%20presen%C3%A7a%20online%20da%20minha%20empresa."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl font-heading font-black italic text-sm text-slate-950 bg-gradient-to-r from-cyan-400 to-sky-400 hover:shadow-[0_0_25px_rgba(0,240,255,0.6)] hover:scale-[1.02] transition-all whitespace-nowrap"

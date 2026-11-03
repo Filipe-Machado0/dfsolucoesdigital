@@ -2,7 +2,7 @@ import React from 'react';
 import { MessageCircle, ArrowRight, Sparkles, CheckCircle2, UserCheck, TrendingUp, Layers } from 'lucide-react';
 
 export default function Hero() {
-  const whatsappUrl = "https://wa.me/5561999999999?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20DF%20Solu%C3%A7%C3%B5es%20Digitais%20e%20gostaria%20de%20um%20diagn%C3%B3stico%20para%20minha%20empresa.";
+  const whatsappUrl = "https://wa.me/5515991359386?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20DF%20Digital%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20minha%20empresa.";
 
   return (
     <section className="relative min-h-screen flex items-center justify-center pt-28 pb-20 overflow-hidden bg-grid-pattern">

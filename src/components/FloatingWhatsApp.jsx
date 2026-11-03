@@ -3,7 +3,7 @@ import { MessageCircle, X } from 'lucide-react';
 
 export default function FloatingWhatsApp() {
   const [showTooltip, setShowTooltip] = useState(true);
-  const whatsappUrl = "https://wa.me/5561999999999?text=Ol%C3%A1%21%20Gostaria%20de%20um%20atendimento%20r%C3%A1pido%20com%20a%20DF%20Solu%C3%A7%C3%B5es%20Digitais.";
+  const whatsappUrl = "https://wa.me/5515991359386?text=Ol%C3%A1%21%20Gostaria%20de%20um%20atendimento%20r%C3%A1pido%20com%20a%20DF%20Digital.";
 
   return (
     <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-3 pointer-events-auto">

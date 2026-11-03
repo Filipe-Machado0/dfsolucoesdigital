@@ -119,7 +119,7 @@ export default function Services() {
         {/* Services Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredServices.map((service, index) => {
-            const waLink = `https://wa.me/5561999999999?text=${encodeURIComponent(service.whatsappMsg)}`;
+            const waLink = `https://wa.me/5515991359386?text=${encodeURIComponent(service.whatsappMsg)}`;
 
             return (
               <div
@@ -342,7 +342,7 @@ export default function Services() {
                 </button>
 
                 <a
-                  href={`https://wa.me/5561999999999?text=${encodeURIComponent(activeModalService.whatsappMsg)}`}
+                  href={`https://wa.me/5515991359386?text=${encodeURIComponent(activeModalService.whatsappMsg)}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-6 py-3.5 rounded-xl font-heading font-black italic text-xs sm:text-sm text-slate-950 bg-gradient-to-r from-cyan-400 via-sky-400 to-blue-400 hover:shadow-[0_0_25px_rgba(0,240,255,0.7)] transition-all"

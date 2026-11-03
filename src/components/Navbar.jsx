@@ -18,7 +18,7 @@ export default function Navbar() {
     { label: 'Solicitar Orçamento', href: '#orcamento' },
   ];
 
-  const whatsappLink = "https://wa.me/5561999999999?text=Ol%C3%A1%21%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento%20com%20a%20DF%20Solu%C3%A7%C3%B5es%20Digitais.";
+  const whatsappLink = "https://wa.me/5515991359386?text=Ol%C3%A1%21%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento%20com%20a%20DF%20Digital.";
 
   return (
     <header

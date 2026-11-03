@@ -45,7 +45,7 @@ export const services = [
       ],
       commitment: 'Entregamos uma ferramenta profissional, rápida e testada contra as melhores práticas do mercado para que cada centavo investido em tráfego tenha o maior potencial de retorno.'
     },
-    whatsappMsg: 'Olá! Gostaria de saber mais sobre a criação de uma Landing Page de Alta Conversão com a DF Soluções Digitais.'
+    whatsappMsg: 'Olá! Gostaria de solicitar um orçamento para o serviço de Criação de Landing Page de Alta Conversão com a DF Digital.'
   },
   {
     id: 'sites-institucionais',
@@ -85,7 +85,7 @@ export const services = [
       ],
       commitment: 'Garantimos uma entrega com código de padrão profissional, sem lentidão e sem layouts defasados que prejudicam a percepção do seu negócio.'
     },
-    whatsappMsg: 'Olá! Gostaria de receber uma proposta para desenvolvimento de um Site Institucional com a DF Soluções Digitais.'
+    whatsappMsg: 'Olá! Gostaria de solicitar um orçamento para Desenvolvimento de Site Institucional com a DF Digital.'
   },
   {
     id: 'gestao-trafego',
@@ -126,7 +126,7 @@ export const services = [
       ],
       commitment: 'Transparência total: o orçamento de mídia é pago diretamente por você às plataformas (Google/Meta), as contas permanecem no seu nome e nós atuamos na gestão estratégica e técnica.'
     },
-    whatsappMsg: 'Olá! Gostaria de conversar sobre a Gestão de Tráfego Pago para minha empresa com a DF Soluções Digitais.'
+    whatsappMsg: 'Olá! Gostaria de solicitar um orçamento para Gestão Profissional de Tráfego Pago (Meta e Google Ads) com a DF Digital.'
   },
   {
     id: 'marketing-conteudo',
@@ -166,7 +166,7 @@ export const services = [
       ],
       commitment: 'Focamos em conteúdo com propósito comercial e fortalecimento de marca, gerando valor real para o seu público.'
     },
-    whatsappMsg: 'Olá! Gostaria de uma proposta para Gestão e Posicionamento de Redes Sociais com a DF Soluções Digitais.'
+    whatsappMsg: 'Olá! Gostaria de solicitar um orçamento para Marketing Digital e Posicionamento de Redes Sociais com a DF Digital.'
   },
   {
     id: 'otimizacao-manutencao',
@@ -206,7 +206,7 @@ export const services = [
       ],
       commitment: 'Análise técnica honesta: avaliamos a viabilidade da sua estrutura para indicar a solução com melhor custo-benefício.'
     },
-    whatsappMsg: 'Olá! Preciso de ajuda para otimizar e melhorar a velocidade do meu site atual.'
+    whatsappMsg: 'Olá! Gostaria de solicitar um orçamento para Otimização e Manutenção do meu site com a DF Digital.'
   }
 ];
 
