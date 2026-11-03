@@ -18,8 +18,8 @@ export default function FinalCTA() {
 
   return (
     <section id="orcamento" className="relative py-28 bg-[#030712] overflow-hidden scroll-mt-10">
-      {/* Background Neon Flare */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[650px] h-[450px] bg-gradient-to-r from-cyan-500/20 via-sky-500/15 to-blue-600/20 rounded-full blur-[160px] pointer-events-none" />
+      {/* Background Neon Flare via Ultra-fast Radial Gradient */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[500px] bg-[radial-gradient(ellipse_at_center,rgba(0,240,255,0.14)_0%,rgba(14,165,233,0.06)_45%,transparent_75%)] pointer-events-none -z-0" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="relative rounded-3xl p-8 sm:p-14 lg:p-16 bg-gradient-to-b from-[#0e1726] via-[#080d1a] to-[#040813] border-2 border-cyan-400/40 shadow-[0_0_60px_rgba(0,240,255,0.25)] overflow-hidden">

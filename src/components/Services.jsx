@@ -71,47 +71,29 @@ export default function Services() {
 
   return (
     <section id="catalogo-servicos" className="relative py-28 bg-[#020617] overflow-hidden">
-      {/* Background neon ambient lights */}
-      <div className="absolute top-1/4 right-0 w-[500px] h-[500px] bg-cyan-500/10 rounded-full blur-[140px] pointer-events-none" />
-      <div className="absolute bottom-1/4 left-0 w-[500px] h-[500px] bg-blue-600/10 rounded-full blur-[140px] pointer-events-none" />
+      {/* Background neon ambient lights via Radial Gradients */}
+      <div className="absolute top-1/4 right-0 w-[600px] h-[600px] bg-[radial-gradient(circle,rgba(0,240,255,0.08)_0%,transparent_70%)] pointer-events-none -z-0" />
+      <div className="absolute bottom-1/4 left-0 w-[600px] h-[600px] bg-[radial-gradient(circle,rgba(2,132,199,0.08)_0%,transparent_70%)] pointer-events-none -z-0" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
         {/* Section Header */}
         <div className="flex flex-col items-center text-center max-w-3xl mx-auto mb-14">
-          <motion.div
-            initial={{ opacity: 0, y: 15 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5 }}
-            className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-cyan-950/40 border border-cyan-400/30 text-cyan-400 text-xs font-bold tracking-widest uppercase mb-4"
-          >
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-cyan-950/40 border border-cyan-400/30 text-cyan-400 text-xs font-bold tracking-widest uppercase mb-4">
             <Sparkles className="w-3.5 h-3.5" />
             <span>Catálogo Interativo</span>
-          </motion.div>
+          </div>
 
-          <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.1 }}
-            className="font-heading font-black italic text-3xl sm:text-5xl md:text-6xl text-white tracking-tight uppercase mb-6"
-          >
+          <h2 className="font-heading font-black italic text-3xl sm:text-5xl md:text-6xl text-white tracking-tight uppercase mb-6">
             Nosso Catálogo de{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-sky-300 to-blue-500 text-glow-neon">
               Soluções Digitais
             </span>
-          </motion.h2>
+          </h2>
 
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-base sm:text-lg text-slate-300 leading-relaxed font-normal"
-          >
+          <p className="text-base sm:text-lg text-slate-300 leading-relaxed font-normal">
             Explore nossos serviços especializados. Clique em qualquer card para ver entregáveis detalhados, para quem é indicado e como funciona nosso processo de execução.
-          </motion.p>
+          </p>
         </div>
 
         {/* Filter Category Pills */}

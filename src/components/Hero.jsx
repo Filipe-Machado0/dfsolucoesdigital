@@ -6,14 +6,13 @@ export default function Hero() {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center pt-28 pb-20 overflow-hidden bg-grid-pattern">
-      {/* Glow Orbs & Ambient Light */}
-      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[350px] bg-cyan-500/15 rounded-full blur-[140px] pointer-events-none" />
-      <div className="absolute top-1/3 left-1/4 w-[400px] h-[400px] bg-blue-600/10 rounded-full blur-[120px] pointer-events-none" />
-      <div className="absolute bottom-10 right-1/4 w-[350px] h-[350px] bg-sky-400/10 rounded-full blur-[100px] pointer-events-none" />
+      {/* Ambient Neon Lighting via Ultra-fast Radial Gradients */}
+      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[450px] bg-[radial-gradient(ellipse_at_center,rgba(0,240,255,0.15)_0%,rgba(2,132,199,0.05)_50%,transparent_75%)] pointer-events-none -z-0" />
+      <div className="absolute bottom-10 right-1/4 w-[500px] h-[350px] bg-[radial-gradient(ellipse_at_center,rgba(56,189,248,0.10)_0%,transparent_70%)] pointer-events-none -z-0" />
 
       {/* Ambient Logo Watermark */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[540px] h-[540px] opacity-[0.04] pointer-events-none -z-0">
-        <img src="/logo-white.png" alt="" className="w-full h-full object-contain filter blur-[1px]" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[300px] opacity-[0.035] pointer-events-none -z-0">
+        <img src="/logo-horizontal-white.png" alt="" className="w-full h-full object-contain" />
       </div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10 w-full">
@@ -21,7 +20,7 @@ export default function Hero() {
           
           {/* Top Pill Tag com Logo Oficial */}
           <div className="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-slate-900/80 border border-cyan-400/30 text-cyan-300 text-xs sm:text-sm font-semibold mb-8 backdrop-blur-md shadow-[0_0_15px_rgba(0,240,255,0.2)]">
-            <img src="/logo-white.png" alt="DF Digital" className="w-4 h-4 object-contain filter drop-shadow-[0_0_4px_rgba(0,240,255,0.8)]" />
+            <img src="/logo-horizontal-white.png" alt="DF Digital" className="h-3.5 w-auto object-contain filter drop-shadow-[0_0_4px_rgba(0,240,255,0.8)]" />
             <span>Consultoria, Desenvolvimento & Estratégia Digital</span>
           </div>
 

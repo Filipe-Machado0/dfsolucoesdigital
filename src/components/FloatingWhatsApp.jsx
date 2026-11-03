@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { MessageCircle, X } from 'lucide-react';
-import { motion, AnimatePresence } from 'framer-motion';
 
 export default function FloatingWhatsApp() {
   const [showTooltip, setShowTooltip] = useState(true);
@@ -9,43 +8,34 @@ export default function FloatingWhatsApp() {
   return (
     <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-3 pointer-events-auto">
       {/* Tooltip speech bubble */}
-      <AnimatePresence>
-        {showTooltip && (
-          <motion.div
-            initial={{ opacity: 0, y: 10, scale: 0.9 }}
-            animate={{ opacity: 1, y: 0, scale: 1 }}
-            exit={{ opacity: 0, y: 10, scale: 0.9 }}
-            className="relative bg-slate-900/95 border border-cyan-400/50 shadow-[0_0_20px_rgba(0,240,255,0.3)] rounded-2xl p-3.5 max-w-xs text-xs text-slate-200 backdrop-blur-md flex items-start gap-2.5"
+      {showTooltip && (
+        <div className="relative bg-slate-900/95 border border-cyan-400/50 shadow-[0_0_20px_rgba(0,240,255,0.3)] rounded-2xl p-3.5 max-w-xs text-xs text-slate-200 backdrop-blur-md flex items-start gap-2.5 transition-all animate-fade-in">
+          <button
+            onClick={() => setShowTooltip(false)}
+            className="absolute -top-2 -right-2 w-5 h-5 bg-slate-800 rounded-full border border-white/20 flex items-center justify-center text-slate-400 hover:text-white transition-colors cursor-pointer"
+            aria-label="Fechar mensagem"
           >
-            <button
-              onClick={() => setShowTooltip(false)}
-              className="absolute -top-2 -right-2 w-5 h-5 bg-slate-800 rounded-full border border-white/20 flex items-center justify-center text-slate-400 hover:text-white transition-colors"
-              aria-label="Fechar mensagem"
-            >
-              <X className="w-3 h-3" />
-            </button>
-            <div className="flex-1">
-              <div className="flex items-center gap-1.5 mb-1 text-cyan-400 font-bold uppercase tracking-wider text-[10px]">
-                <img src="/logo-white.png" alt="DF" className="w-3.5 h-3.5 object-contain" />
-                <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
-                <span>Atendimento DF Digital</span>
-              </div>
-              <p className="font-medium text-slate-200">
-                Olá! Quer tirar dúvidas sobre criação de sites ou anúncios online? Fale conosco agora no WhatsApp!
-              </p>
+            <X className="w-3 h-3" />
+          </button>
+          <div className="flex-1">
+            <div className="flex items-center gap-1.5 mb-1 text-cyan-400 font-bold uppercase tracking-wider text-[10px]">
+              <img src="/logo-horizontal-white.png" alt="DF" className="h-3 w-auto object-contain" />
+              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+              <span>Atendimento DF Digital</span>
             </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
+            <p className="font-medium text-slate-200">
+              Olá! Quer tirar dúvidas sobre criação de sites ou anúncios online? Fale conosco agora no WhatsApp!
+            </p>
+          </div>
+        </div>
+      )}
 
       {/* Floating Action Button */}
-      <motion.a
+      <a
         href={whatsappUrl}
         target="_blank"
         rel="noopener noreferrer"
-        whileHover={{ scale: 1.08 }}
-        whileTap={{ scale: 0.95 }}
-        className="relative group flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-tr from-cyan-400 via-sky-400 to-blue-500 shadow-[0_0_25px_rgba(0,240,255,0.7)] hover:shadow-[0_0_40px_rgba(0,240,255,1)] transition-all duration-300"
+        className="relative group flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-tr from-cyan-400 via-sky-400 to-blue-500 shadow-[0_0_25px_rgba(0,240,255,0.7)] hover:shadow-[0_0_40px_rgba(0,240,255,1)] hover:scale-105 active:scale-95 transition-all duration-300"
         aria-label="Falar com DF Soluções Digitais no WhatsApp"
       >
         {/* Radar ping effect */}
@@ -55,7 +45,7 @@ export default function FloatingWhatsApp() {
 
         {/* Live status badge */}
         <span className="absolute top-0 right-0 w-4 h-4 bg-emerald-400 border-2 border-slate-950 rounded-full shadow-sm" />
-      </motion.a>
+      </a>
     </div>
   );
 }
