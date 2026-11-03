@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { motion } from 'framer-motion';
 import { MessageCircle, ArrowRight, Sparkles, Send, CheckCircle2, PhoneCall } from 'lucide-react';
 
 export default function FinalCTA() {
@@ -23,13 +22,7 @@ export default function FinalCTA() {
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[650px] h-[450px] bg-gradient-to-r from-cyan-500/20 via-sky-500/15 to-blue-600/20 rounded-full blur-[160px] pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <motion.div
-          initial={{ opacity: 0, scale: 0.96 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.7 }}
-          className="relative rounded-3xl p-8 sm:p-14 lg:p-16 bg-gradient-to-b from-[#0e1726] via-[#080d1a] to-[#040813] border-2 border-cyan-400/40 shadow-[0_0_60px_rgba(0,240,255,0.25)] overflow-hidden"
-        >
+        <div className="relative rounded-3xl p-8 sm:p-14 lg:p-16 bg-gradient-to-b from-[#0e1726] via-[#080d1a] to-[#040813] border-2 border-cyan-400/40 shadow-[0_0_60px_rgba(0,240,255,0.25)] overflow-hidden">
           {/* Subtle Top Neon Accent Line */}
           <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-cyan-400 to-transparent" />
 
@@ -171,7 +164,7 @@ export default function FinalCTA() {
             </div>
 
           </div>
-        </motion.div>
+        </div>
       </div>
     </section>
   );

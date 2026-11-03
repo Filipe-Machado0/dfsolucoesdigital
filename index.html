@@ -5,10 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DF Soluções Digitais | Sua presença online, levada mais longe</title>
     <meta name="description" content="Agência especializada em Criação de Sites de Alta Performance, Marketing Digital Estratégico e Gestão de Tráfego Pago (Meta e Google Ads). Aumente suas vendas hoje mesmo." />
-    <!-- Google Fonts -->
+    
+    <!-- Preload da Logo Crítica (LCP Optimization) -->
+    <link rel="preload" as="image" href="/logo-horizontal-white.png" fetchpriority="high" />
+
+    <!-- DNS Prefetch & Preconnect para Conexões Externas -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="dns-prefetch" href="https://wa.me">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700;1,800;1,900&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Fontes Google Otimizadas (Apenas pesos essenciais com display=swap não-bloqueante) -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,800;1,900&family=Poppins:wght@400;600;700&display=swap" media="print" onload="this.media='all'">
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,800;1,900&family=Poppins:wght@400;600;700&display=swap">
+    </noscript>
   </head>
   <body class="bg-[#030712] text-slate-100 font-sans selection:bg-[#00f0ff] selection:text-black antialiased overflow-x-hidden">
     <div id="root"></div>

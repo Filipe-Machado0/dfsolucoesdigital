@@ -1,5 +1,4 @@
 import React from 'react';
-import { motion } from 'framer-motion';
 import { MessageCircle, ArrowRight, Sparkles, CheckCircle2, UserCheck, TrendingUp, Layers } from 'lucide-react';
 
 export default function Hero() {
@@ -21,46 +20,26 @@ export default function Hero() {
         <div className="flex flex-col items-center text-center max-w-4xl mx-auto">
           
           {/* Top Pill Tag com Logo Oficial */}
-          <motion.div
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-slate-900/80 border border-cyan-400/30 text-cyan-300 text-xs sm:text-sm font-semibold mb-8 backdrop-blur-md shadow-[0_0_15px_rgba(0,240,255,0.2)]"
-          >
+          <div className="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-slate-900/80 border border-cyan-400/30 text-cyan-300 text-xs sm:text-sm font-semibold mb-8 backdrop-blur-md shadow-[0_0_15px_rgba(0,240,255,0.2)]">
             <img src="/logo-white.png" alt="DF Digital" className="w-4 h-4 object-contain filter drop-shadow-[0_0_4px_rgba(0,240,255,0.8)]" />
             <span>Consultoria, Desenvolvimento & Estratégia Digital</span>
-          </motion.div>
+          </div>
 
           {/* Main Headline - Black Italic */}
-          <motion.h1
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 0.1 }}
-            className="font-heading font-black italic text-4xl sm:text-6xl md:text-7xl lg:text-8xl tracking-tight text-white uppercase leading-[1.08] mb-6"
-          >
+          <h1 className="font-heading font-black italic text-4xl sm:text-6xl md:text-7xl lg:text-8xl tracking-tight text-white uppercase leading-[1.08] mb-6">
             Sua presença online,{' '}
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-sky-300 to-blue-500 text-glow-neon">
               levada mais longe.
             </span>
-          </motion.h1>
+          </h1>
 
           {/* Subtitle */}
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 0.2 }}
-            className="text-base sm:text-lg md:text-xl text-slate-300 max-w-2xl mx-auto mb-10 font-normal leading-relaxed"
-          >
+          <p className="text-base sm:text-lg md:text-xl text-slate-300 max-w-2xl mx-auto mb-10 font-normal leading-relaxed">
             Desenvolvemos <strong className="text-white font-semibold">sites profissionais</strong>, estruturamos campanhas de <strong className="text-cyan-400 font-semibold">tráfego pago</strong> e criamos estratégias de <strong className="text-sky-300 font-semibold">marketing sob medida</strong> para empresas que buscam autoridade e vendas reais — com transparência de ponta a ponta.
-          </motion.p>
+          </p>
 
           {/* Action CTAs */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 0.3 }}
-            className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full sm:w-auto"
-          >
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full sm:w-auto">
             {/* Primary CTA - WhatsApp Neon */}
             <a
               href={whatsappUrl}
@@ -82,15 +61,10 @@ export default function Hero() {
               <Layers className="w-4 h-4 text-cyan-400" />
               <span>Explorar Catálogo de Serviços</span>
             </a>
-          </motion.div>
+          </div>
 
           {/* Quick Commitments */}
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.8, delay: 0.5 }}
-            className="flex flex-wrap items-center justify-center gap-6 mt-12 text-xs sm:text-sm text-slate-400"
-          >
+          <div className="flex flex-wrap items-center justify-center gap-6 mt-12 text-xs sm:text-sm text-slate-400">
             <div className="flex items-center gap-2">
               <CheckCircle2 className="w-4 h-4 text-cyan-400" />
               <span>Estratégia Orientada a Dados</span>
@@ -103,17 +77,12 @@ export default function Hero() {
               <CheckCircle2 className="w-4 h-4 text-cyan-400" />
               <span>Atendimento Consultivo Direto</span>
             </div>
-          </motion.div>
+          </div>
 
         </div>
 
         {/* Value Pillars (Refinados e Mascarados) */}
-        <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.9, delay: 0.4 }}
-          className="mt-16 max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-5"
-        >
+        <div className="mt-16 max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-5">
           {/* Card 1 */}
           <div className="glass-panel p-6 rounded-2xl border border-cyan-500/20 hover:border-cyan-400/50 transition-all duration-300 hover:shadow-neon-card group text-left">
             <div className="flex items-center justify-between mb-4">
@@ -168,7 +137,7 @@ export default function Hero() {
               Desenvolvimento moderno e responsivo, projetado para carregar instantaneamente no celular e passar credibilidade imediata.
             </p>
           </div>
-        </motion.div>
+        </div>
 
       </div>
     </section>

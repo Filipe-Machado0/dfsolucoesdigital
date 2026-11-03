@@ -140,15 +140,10 @@ export default function Services() {
             const waLink = `https://wa.me/5561999999999?text=${encodeURIComponent(service.whatsappMsg)}`;
 
             return (
-              <motion.div
+              <div
                 key={service.id}
-                layout
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.4, delay: index * 0.08 }}
-                whileHover={{ y: -6 }}
                 onClick={() => setActiveModalService(service)}
-                className={`relative group rounded-3xl p-8 bg-gradient-to-b from-[#0b1220]/95 via-[#070c18]/95 to-[#040812]/95 border border-white/10 ${service.borderGlow} transition-all duration-300 flex flex-col justify-between hover:shadow-[0_0_35px_rgba(0,240,255,0.25)] cursor-pointer`}
+                className={`relative group rounded-3xl p-8 bg-gradient-to-b from-[#0b1220]/95 via-[#070c18]/95 to-[#040812]/95 border border-white/10 ${service.borderGlow} transition-all duration-300 transform hover:-translate-y-1.5 flex flex-col justify-between hover:shadow-[0_0_35px_rgba(0,240,255,0.25)] cursor-pointer`}
               >
                 {/* Neon subtle background glow */}
                 <div className="absolute inset-0 rounded-3xl bg-gradient-to-b from-cyan-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
@@ -218,7 +213,7 @@ export default function Services() {
                     <ArrowRight className="w-3.5 h-3.5 stroke-[2.5]" />
                   </a>
                 </div>
-              </motion.div>
+              </div>
             );
           })}
         </div>
