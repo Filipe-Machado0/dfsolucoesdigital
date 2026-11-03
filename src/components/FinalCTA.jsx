@@ -37,14 +37,12 @@ export default function FinalCTA() {
             
             {/* Left Column: Pitch & Value proposition */}
             <div className="lg:col-span-7 space-y-6">
-              <div className="flex items-center gap-3.5 mb-2">
-                <div className="w-12 h-12 rounded-2xl bg-slate-900/90 border border-cyan-400/40 p-2 shadow-[0_0_20px_rgba(0,240,255,0.35)] flex items-center justify-center">
-                  <img src="/logo-white.png" alt="DF Digital" className="w-full h-full object-contain filter drop-shadow-[0_0_6px_rgba(0,240,255,0.7)]" />
-                </div>
-                <div>
-                  <span className="font-heading font-black italic text-lg text-white">DF DIGITAL</span>
-                  <span className="text-[10px] uppercase tracking-widest text-cyan-400 block -mt-0.5 font-semibold">Soluções Digitais</span>
-                </div>
+              <div className="flex items-center mb-2">
+                <img
+                  src="/logo-horizontal-white.png"
+                  alt="DF Digital - Soluções Digitais"
+                  className="h-9 sm:h-10 w-auto object-contain filter drop-shadow-[0_0_12px_rgba(0,240,255,0.4)]"
+                />
               </div>
 
               <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-cyan-950/60 border border-cyan-400/40 text-cyan-400 text-xs font-bold uppercase tracking-widest">

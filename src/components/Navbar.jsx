@@ -30,23 +30,13 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
-          {/* Logo Oficial */}
-          <a href="#" className="flex items-center gap-3.5 group">
-            <div className="relative flex items-center justify-center w-11 h-11 rounded-2xl bg-slate-900/90 border border-cyan-500/30 p-1.5 shadow-[0_0_18px_rgba(0,240,255,0.35)] group-hover:shadow-[0_0_28px_rgba(0,240,255,0.7)] group-hover:border-cyan-400 transition-all duration-300">
-              <img
-                src="/logo-white.png"
-                alt="DF Digital Logo"
-                className="w-full h-full object-contain filter drop-shadow-[0_0_8px_rgba(0,240,255,0.7)]"
-              />
-            </div>
-            <div className="flex flex-col">
-              <span className="font-heading font-black italic tracking-wide text-lg text-white group-hover:text-cyan-400 transition-colors">
-                DF <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-sky-400">DIGITAL</span>
-              </span>
-              <span className="text-[10px] tracking-[0.22em] uppercase text-cyan-400/80 font-semibold -mt-1">
-                Soluções Digitais
-              </span>
-            </div>
+          {/* Logo Oficial Horizontal */}
+          <a href="#" className="flex items-center group py-1">
+            <img
+              src="/logo-horizontal-white.png"
+              alt="DF Digital - Soluções Digitais"
+              className="h-8 sm:h-9 md:h-10 w-auto object-contain filter drop-shadow-[0_0_12px_rgba(0,240,255,0.4)] group-hover:drop-shadow-[0_0_20px_rgba(0,240,255,0.7)] group-hover:scale-[1.02] transition-all duration-300"
+            />
           </a>
 
           {/* Desktop Nav Links */}

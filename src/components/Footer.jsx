@@ -14,22 +14,12 @@ export default function Footer() {
           
           {/* Brand Info */}
           <div className="lg:col-span-2 space-y-4">
-            <div className="flex items-center gap-3.5">
-              <div className="flex items-center justify-center w-12 h-12 rounded-2xl bg-slate-900/90 border border-cyan-500/30 p-2 shadow-[0_0_20px_rgba(0,240,255,0.35)]">
-                <img
-                  src="/logo-white.png"
-                  alt="DF Digital"
-                  className="w-full h-full object-contain filter drop-shadow-[0_0_6px_rgba(0,240,255,0.7)]"
-                />
-              </div>
-              <div className="flex flex-col">
-                <span className="font-heading font-black italic tracking-wide text-xl text-white">
-                  DF <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-sky-400">DIGITAL</span>
-                </span>
-                <span className="text-[10px] tracking-[0.25em] uppercase text-cyan-400/80 font-semibold -mt-1">
-                  Soluções Digitais
-                </span>
-              </div>
+            <div className="flex items-center">
+              <img
+                src="/logo-horizontal-white.png"
+                alt="DF Digital - Soluções Digitais"
+                className="h-10 sm:h-11 w-auto object-contain filter drop-shadow-[0_0_12px_rgba(0,240,255,0.35)]"
+              />
             </div>
 
             <p className="text-sm text-slate-400 max-w-sm leading-relaxed">
